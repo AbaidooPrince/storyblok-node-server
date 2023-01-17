@@ -20,6 +20,7 @@ app.get('/', (request, response) => {
 
 // route to receive storyblok hook
 app.get('/storyblok', (request, response) => {
+    console.log("this is storyblok hook")
     response.send('Welcome!');
 });
 
